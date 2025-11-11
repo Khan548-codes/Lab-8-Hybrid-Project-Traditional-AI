@@ -6,7 +6,7 @@ Hybrid Computer Vision Pipeline Explanation 🧠
    
 The pipeline begins by loading the peppers.png image and initializing the SqueezeNet Convolutional Neural Network (CNN). SqueezeNet acts as the AI component responsible for classification. This network requires the input image to be resized to 227×227 pixels.
 
-3. Traditional Pre-processing (K-Means Segmentation) 🎨
+2. Traditional Pre-processing (K-Means Segmentation) 🎨
    
 The core traditional technique used is K-Means clustering applied to the image's color data. This step performs segmentation to achieve two goals:
 
@@ -27,4 +27,4 @@ Confidence: [Insert Probability]%
 
 This hybrid approach demonstrates that using traditional segmentation to clean the input image can lead to a more focused and potentially higher-confidence classification result from the AI component compared to classifying the original, busy image directly. The two methods combine to improve overall pipeline performance.
 
-![images]()
+![images](https://github.com/Khan548-codes/Lab-8-Hybrid-Project-Traditional-AI/blob/main/images/Screenshot%202025-11-11%20194723.png)
